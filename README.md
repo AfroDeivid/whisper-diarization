@@ -108,3 +108,4 @@ pip uninstall huggingface_hub
 pip install huggingface-hub==0.20.3
 - https://strawberryperl.com/
 - Changed python3 -> python
+- python diarize.py -a "Id 13.m4a"
