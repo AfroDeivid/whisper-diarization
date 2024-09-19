@@ -93,3 +93,18 @@ If your system has enough VRAM (>=10GB), you can use `diarize_parallel.py` inste
 ## Acknowledgements
 Special Thanks for [@adamjonas](https://github.com/adamjonas) for supporting this project
 This work is based on [OpenAI's Whisper](https://github.com/openai/whisper) , [Faster Whisper](https://github.com/guillaumekln/faster-whisper) , [Nvidia NeMo](https://github.com/NVIDIA/NeMo) , and [Facebook's Demucs](https://github.com/facebookresearch/demucs)
+
+
+
+# David
+
+try to use python 3.9 or 3.10
+
+pip install cython
+- https://stackoverflow.com/questions/40504552/how-to-install-visual-c-build-tools
+pip install -r requirements.txt
+pip install ipykernel 
+pip uninstall huggingface_hub
+pip install huggingface-hub==0.20.3
+- https://strawberryperl.com/
+- Changed python3 -> python
